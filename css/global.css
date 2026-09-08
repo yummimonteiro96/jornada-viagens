@@ -43,18 +43,18 @@ h1 {
   color: var(--primary-color);
 }
 
-body{
+body {
   font-family: "Monteserrat";
   color: var(--text-primary-color);
 }
 
-.section-title h2{
-font-size: 28px;
-margin: 0;
-text-align: center;
+.section-title h2 {
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
 }
 
-.section-title hr{
+.section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -63,8 +63,7 @@ text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .section-title h2{
-font-size: 32px;
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
-}
-  
