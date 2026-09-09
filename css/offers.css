@@ -1,4 +1,4 @@
-.cards {
+.card {
   color: var(--text-secondary-color);
   background-color: black;
   width: 312px;
@@ -8,7 +8,7 @@
   border-radius: 16px;
   text-align: center;
 }
-.cards header {
+.card header {
   display: block;
   padding: 24px 16px;
   position: static;
@@ -16,28 +16,28 @@
   margin-bottom: 24px;
 }
 
-.cards header h3 {
+.card header h3 {
   font-size: 40px;
   font-weight: var(--text-weight);
   margin: 8px 0 0;
 }
 
-.cards header span {
+.card header span {
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
 }
 
 @media screen and (min-width 1024px) {
-  .cards {
+  .card {
     width: 588px;
     height: 308px;
   }
-  .cards header h3 {
+  .card header h3 {
     font-size: 48px;
   }
 
-  .cards header span {
+  .card header span {
     font-size: 40px;
   }
 }
