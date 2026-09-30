@@ -11,7 +11,6 @@
 .offers-cards .card {
   color: var(--text-secondary-color);
   width: 312px;
-  height: 288px;
   box-sizing: border-box;
   padding: 24px 16px;
   border-radius: 16px;
@@ -71,7 +70,7 @@
 @media screen and (min-width: 1024px) {
   .offers-cards .card {
     width: 420px;
-    height: 308px;
+    height: 360px;
   }
   .offers-cards .card header h3 {
     font-size: 48px;
