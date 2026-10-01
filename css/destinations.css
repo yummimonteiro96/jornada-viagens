@@ -22,10 +22,12 @@
 
 .destinations .item header h4 {
   margin: 24px 0;
+  font-size: 28px;
 }
 
 .destinations .item p {
   margin-bottom: 24px;
+  font-size: 28px;
 }
 
 .destinations .botton {
