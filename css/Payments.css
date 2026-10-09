@@ -1,22 +1,70 @@
-.payments .image-content {
+.payments .image-gallery {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 200px 500px 200px;
-  grid-template-areas: 
-  "bag "
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+.payments .content-container {
+display: flex;
+}
+.payments .content-container .image-gallery .image.first {
+  background: url(../img/bag-mobile.png) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .image-gallery .image.second {
+  background: url(../img/passport-mobile.png) no-repeat;
+  background-size: cover;
 }
 
-.payments .image-content .image.bag {
-  background: url(../img/bag-mobile.png);
-  background-size: cover;
-  grid-area: bag;
-}
-.payments .image-content .image.bag {
-  background: url(../img/passport-mobile.png);
+.payments .content-container .image-gallery .image.image.thirdy.colspan-2 {
+  background: url(../img/people-mobile.png) no-repeat;
   background-size: cover;
 }
 
-.payments .image-content .image.bag {
-  background: url(../img/people-mobile.png);
+.payments .content-container .image-gallery .image.thirdy.colspan-2 { 
+grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+.payments .content-container .image-gallery .image.first {
+  background: url(../img/bag-tablet.png) no-repeat;
   background-size: cover;
+}
+.payments .content-container .image-gallery .image.second{
+   background: url(../img/passport-tablet.png) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .image-gallery .image.thirdy.colspan-2 {
+     background: url(../img/people-tablet.png) no-repeat;
+  background-size: cover;
+}
+}
+
+@media screen and (min-width: 440px) {
+  .payments .content-container{
+    justify-content: space-between;
+  }
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+    .payments .content-container .image-gallery {
+    width: 790px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+.payments .content-container .image-gallery .image.first {
+  background: url(../img/bag-desktop.png) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .image-gallery .image.second{
+   background: url(../img/passport-desktop.png) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .image-gallery .image.thirdy.colspan-2 {
+     background: url(../img/people-desktop.png) no-repeat;
+  background-size: cover;
+}
 }
