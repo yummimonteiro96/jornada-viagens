@@ -23,13 +23,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
   .bottom-hero .hero-img {
-    height: 600px;
+    height: 400px;
     background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
     background-size: cover;
   }
@@ -40,7 +40,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
@@ -51,7 +51,6 @@
   }
   .hero h2 {
     padding: 88px 120px;
-    font-size: 32px;
   }
 }
 
