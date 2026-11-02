@@ -31,12 +31,17 @@
   background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
   background-size: cover;
 }
+.travel-packages.bottom-hero .hero-img {
+  background: url(../img/travel-packages/japan-bg-bottom-hero-mobile.png)no-repeat;
+  background-size: cover;
+}
 .travel-packages .hero-content {
   padding: 65px 24px;
 }
 .travel-packages .hero-content h1 {
   font-size: 48px;
   color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
 }
 .travel-packages .hero-content p {
   font-size: 20px;
@@ -76,15 +81,15 @@
     line-height: 48px;
   }
   .travel-packages .hero-img {
-  height: 620px;
-  background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
-  background-size: cover;
-}
-.travel-packages .bottom-hero .hero-img {
-  background: url() no-repeat;
-  background-size: cover;
-  height: 400px;
-}
+    height: 620px;
+    background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/travel-packages/japan-bg-bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -106,18 +111,19 @@
     margin: 0 auto;
   }
   .travel-packages .hero-content p {
-width: 570px;
-}
-.travel-packages .hero-img {
-  background: url(../img/travel-packages/japan-bg-hero-desktop.png) no-repeat;
+    width: 570px;
+  }
+  .travel-packages .hero-img {
+    background: url(../img/travel-packages/japan-bg-hero-desktop.png) no-repeat;
+    background-size: cover;
+  }
+.travel-packages.bottom-hero .hero-img {
+  height: 600px;
+  background: url(../img/travel-packages/japan-bg-bottom-hero-desktop.png)no-repeat;
   background-size: cover;
 }
 }
-  .travel-packages.bottom-hero .hero-img {
-    height: 600px;
-    background: url() no-repeat;
-    background-size: cover;
-  }
+
 
 @media screen and (min-width: 1440px) {
   .travel-packages .hero-content {
@@ -129,5 +135,4 @@ width: 570px;
   .hero h2 {
     padding: 88px 160px;
   }
-
 }
