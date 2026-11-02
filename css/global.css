@@ -24,7 +24,7 @@
 /* CSS RESET */
 body,
 img,
-h1,
+h4,
 p,
 fieldset,
 legend,
@@ -37,7 +37,7 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
+h4 {
   font-family: "Montserrat";
   font-weight: var(--titles-weight);
   color: var(--primary-color);
@@ -65,7 +65,6 @@ section.bottom-hero {
   width: 280px;
   margin: 0 auto 32px;
 }
-
 .section-title h2 {
   font-size: 28px;
   margin: 0;
